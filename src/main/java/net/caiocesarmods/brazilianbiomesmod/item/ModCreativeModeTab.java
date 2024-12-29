@@ -38,4 +38,11 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.JUA_BERRIES.get());
         }
     };
+
+    public static final CreativeModeTab RESTINGA_TAB = new CreativeModeTab("restinga_tab") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(ModItems.PITANGA.get());
+        }
+    };
 }
