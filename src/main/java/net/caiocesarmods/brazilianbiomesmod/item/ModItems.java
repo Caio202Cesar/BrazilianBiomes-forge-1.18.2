@@ -12,6 +12,17 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BrazilianBiomesMod.MOD_ID);
 
+    //Materials
+    public static final RegistryObject<Item> PURPLE_IPE_FLOWERS = ITEMS.register("purple_ipe_flowers",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+    public static final RegistryObject<Item> YELLOW_IPE_FLOWERS = ITEMS.register("yellow_ipe_flowers",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+    public static final RegistryObject<Item> PINK_IPE_FLOWERS = ITEMS.register("pink_ipe_flowers",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+    public static final RegistryObject<Item> WHITE_IPE_FLOWERS = ITEMS.register("white_ipe_flowers",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+
+    //Fruits
     public static final RegistryObject<Item> JUA_BERRIES = ITEMS.register("jua_berries",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
     public static final RegistryObject<Item> CAMBUCI = ITEMS.register("cambuci",
@@ -29,8 +40,6 @@ public class ModItems {
     public static final RegistryObject<Item> CUPUACU = ITEMS.register("cupuacu",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
     public static final RegistryObject<Item> WOLF_APPLE = ITEMS.register("wolf_apple",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
-    public static final RegistryObject<Item> JABUTICABA = ITEMS.register("jabuticaba",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
     public static final RegistryObject<Item> PINEAPPLE_GUAVA = ITEMS.register("pineapple_guava",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
