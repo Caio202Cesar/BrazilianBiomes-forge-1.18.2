@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
-    "end": "brbiomesmod:block/brazilwood_log_middle",
-    "side": "brbiomesmod:block/brazilwood_bark"
+    "end": "brazilianbiomesmod:block/brazilwood_log_middle",
+    "side": "brazilianbiomesmod:block/brazilwood_bark"
   }
 }

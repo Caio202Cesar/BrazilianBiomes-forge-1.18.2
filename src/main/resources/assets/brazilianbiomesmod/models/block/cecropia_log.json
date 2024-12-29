@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
-    "end": "brbiomesmod:block/cecropia_log_middle",
-    "side": "brbiomesmod:block/cecropia_bark"
+    "end": "brazilianbiomesmod:block/cecropia_log_middle",
+    "side": "brazilianbiomesmod:block/cecropia_bark"
   }
 }

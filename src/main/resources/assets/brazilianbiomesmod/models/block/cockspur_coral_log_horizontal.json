@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
-    "end": "brbiomesmod:block/cockspur_coral_log_middle",
-    "side": "brbiomesmod:block/cockspur_coral_bark"
+    "end": "brazilianbiomesmod:block/cockspur_coral_log_middle",
+    "side": "brazilianbiomesmod:block/cockspur_coral_bark"
   }
 }

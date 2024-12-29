@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "brbiomesmod:block/eugenia_log_horizontal",
+      "model": "brazilianbiomesmod:block/eugenia_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "brbiomesmod:block/eugenia_log"
+      "model": "brazilianbiomesmod:block/eugenia_log"
     },
     "axis=z": {
-      "model": "brbiomesmod:block/eugenia_log_horizontal",
+      "model": "brazilianbiomesmod:block/eugenia_log_horizontal",
       "x": 90
     }
   }

@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
-    "end": "brbiomesmod:block/feijoa_log_middle",
-    "side": "brbiomesmod:block/feijoa_bark"
+    "end": "brazilianbiomesmod:block/feijoa_log_middle",
+    "side": "brazilianbiomesmod:block/feijoa_bark"
   }
 }

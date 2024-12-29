@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "brbiomesmod:block/wolf_apple_log_horizontal",
+      "model": "brazilianbiomesmod:block/wolf_apple_log_horizontal",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "brbiomesmod:block/wolf_apple_log"
+      "model": "brazilianbiomesmod:block/wolf_apple_log"
     },
     "axis=z": {
-      "model": "brbiomesmod:block/wolf_apple_log_horizontal",
+      "model": "brazilianbiomesmod:block/wolf_apple_log_horizontal",
       "x": 90
     }
   }

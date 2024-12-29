@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_column",
   "textures": {
-    "end": "brbiomesmod:block/bacuri_log_middle",
-    "side": "brbiomesmod:block/bacuri_bark"
+    "end": "brazilianbiomesmod:block/bacuri_log_middle",
+    "side": "brazilianbiomesmod:block/bacuri_bark"
   }
 }
