@@ -1,0 +1,8 @@
+{
+  "variants":{
+    "":[
+      {"model": "brazilianbiomesmod:block/feijoa_leaves"},
+      {"model": "brazilianbiomesmod:block/feijoa_flowering_leaves"},
+      {"model": "brazilianbiomesmod:block/feijoa_fruiting_leaves"}
+    ]
+  }}
