@@ -6,6 +6,7 @@ import net.caiocesarmods.brazilianbiomesmod.item.ModItems;
 import net.caiocesarmods.brazilianbiomesmod.world.feature.tree.BrazillianSassafrasGrower;
 import net.caiocesarmods.brazilianbiomesmod.world.feature.tree.ImbuiaGrower;
 import net.caiocesarmods.brazilianbiomesmod.world.feature.tree.ParanaPineGrower;
+import net.caiocesarmods.brazilianbiomesmod.world.feature.tree.YerbaMateGrower;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;

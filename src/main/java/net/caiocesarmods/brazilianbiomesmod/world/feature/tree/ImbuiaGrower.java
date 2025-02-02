@@ -13,9 +13,9 @@ public class ImbuiaGrower extends AbstractTreeGrower {
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> m_203525_(Random random, boolean b) {
         if (random.nextInt(10) == 0) {
-            return ModConfiguredFeatures.IMBUIA_TREE;
-        } else {
             return ModConfiguredFeatures.IMBUIA_FANCY_TREE;
+        } else {
+            return ModConfiguredFeatures.IMBUIA_TREE;
         }
     }
 }

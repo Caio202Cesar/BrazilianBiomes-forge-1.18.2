@@ -93,4 +93,35 @@ public class ModConfiguredFeatures {
             BRAZILLIAN_SASSAFRAS_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.BRAZILLIAN_SASSAFRAS_SAPLING.get()));
     public static final Holder<PlacedFeature> FANCY_BRAZILLIAN_SASSAFRAS_CHECKED = PlacementUtils.register("fancy_brazillian_sassafras_checked",
             BRAZILLIAN_SASSAFRAS_FANCY_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.BRAZILLIAN_SASSAFRAS_SAPLING.get()));
+
+    //Yerba Mate
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> YERBA_MATE_TREE =
+            FeatureUtils.register("yerba_mate", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LOG.get()),
+                    new StraightTrunkPlacer(4, 2, 0),
+                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LEAVES.get()),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> YERBA_MATE_FANCY_TREE =
+            FeatureUtils.register("fancy_yerba_mate", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LOG.get()),
+                    new FancyTrunkPlacer(3, 11, 0),
+                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LEAVES.get()),
+                    new FancyFoliagePlacer(ConstantInt.of(2), ConstantInt.of(4), 4),
+                    new TwoLayersFeatureSize(0, 0, 0, OptionalInt.of(4))).ignoreVines().build());
+
+    public static final Holder<PlacedFeature> YERBA_MATE_CHECKED = PlacementUtils.register("yerba_mate_checked", YERBA_MATE_TREE,
+            PlacementUtils.filteredByBlockSurvival(ModBlocks.YERBA_MATE_SAPLING.get()));
+    public static final Holder<PlacedFeature> FANCY_YERBA_MATE_CHECKED = PlacementUtils.register("fancy_yerba_mate_checked",
+            YERBA_MATE_FANCY_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.YERBA_MATE_SAPLING.get()));
+
+    //Feijoa
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> YERBA_MATE_TREE =
+            FeatureUtils.register("yerba_mate", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LOG.get()),
+                    new StraightTrunkPlacer(3, 2, 0),
+                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LEAVES.get()),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                    new TwoLayersFeatureSize(1, 0, 1)).build());
 }
+

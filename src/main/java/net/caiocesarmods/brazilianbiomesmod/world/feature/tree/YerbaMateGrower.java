@@ -8,14 +8,14 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.Random;
 
-public class BrazillianSassafrasGrower extends AbstractTreeGrower {
+public class YerbaMateGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> m_203525_(Random random, boolean b) {
         if (random.nextInt(10) == 0) {
-            return ModConfiguredFeatures.BRAZILLIAN_SASSAFRAS_FANCY_TREE;
+            return ModConfiguredFeatures.YERBA_MATE_FANCY_TREE;
         } else {
-            return ModConfiguredFeatures.BRAZILLIAN_SASSAFRAS_TREE;
+            return ModConfiguredFeatures.YERBA_MATE_TREE;
         }
     }
 }
