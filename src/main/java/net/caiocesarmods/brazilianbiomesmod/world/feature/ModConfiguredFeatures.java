@@ -68,4 +68,29 @@ public class ModConfiguredFeatures {
                     new FancyFoliagePlacer(ConstantInt.of(2), ConstantInt.of(4), 4),
                     new TwoLayersFeatureSize(0, 0, 0, OptionalInt.of(4))).ignoreVines().build());
 
+    public static final Holder<PlacedFeature> IMBUIA_CHECKED = PlacementUtils.register("imbuia_checked", IMBUIA_TREE,
+            PlacementUtils.filteredByBlockSurvival(ModBlocks.IMBUIA_SAPLING.get()));
+    public static final Holder<PlacedFeature> FANCY_IMBUIA_CHECKED = PlacementUtils.register("fancy_imbuia_checked",
+            IMBUIA_FANCY_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.IMBUIA_SAPLING.get()));
+
+    //Brazillian Sassafras
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> BRAZILLIAN_SASSAFRAS_TREE =
+            FeatureUtils.register("brazillian_sassafras", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                    BlockStateProvider.simple(ModBlocks.BRAZILLIAN_SASSAFRAS_LOG.get()),
+                    new StraightTrunkPlacer(4, 6, 0),
+                    BlockStateProvider.simple(ModBlocks.BRAZILLIAN_SASSAFRAS_LEAVES.get()),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                    new TwoLayersFeatureSize(0, 0, 0)).build());
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> BRAZILLIAN_SASSAFRAS_FANCY_TREE =
+            FeatureUtils.register("fancy_brazillian_sassafras", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                    BlockStateProvider.simple(ModBlocks.BRAZILLIAN_SASSAFRAS_LOG.get()),
+                    new FancyTrunkPlacer(3, 11, 0),
+                    BlockStateProvider.simple(ModBlocks.BRAZILLIAN_SASSAFRAS_LEAVES.get()),
+                    new FancyFoliagePlacer(ConstantInt.of(2), ConstantInt.of(4), 4),
+                    new TwoLayersFeatureSize(0, 0, 0, OptionalInt.of(4))).ignoreVines().build());
+
+    public static final Holder<PlacedFeature> BRAZILLIAN_SASSAFRAS_CHECKED = PlacementUtils.register("brazillian_sassafras_checked",
+            BRAZILLIAN_SASSAFRAS_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.BRAZILLIAN_SASSAFRAS_SAPLING.get()));
+    public static final Holder<PlacedFeature> FANCY_BRAZILLIAN_SASSAFRAS_CHECKED = PlacementUtils.register("fancy_brazillian_sassafras_checked",
+            BRAZILLIAN_SASSAFRAS_FANCY_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.BRAZILLIAN_SASSAFRAS_SAPLING.get()));
 }
