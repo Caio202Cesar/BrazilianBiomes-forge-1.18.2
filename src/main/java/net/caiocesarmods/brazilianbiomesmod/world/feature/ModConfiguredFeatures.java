@@ -116,12 +116,12 @@ public class ModConfiguredFeatures {
             YERBA_MATE_FANCY_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.YERBA_MATE_SAPLING.get()));
 
     //Feijoa
-    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> YERBA_MATE_TREE =
-            FeatureUtils.register("yerba_mate", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LOG.get()),
-                    new StraightTrunkPlacer(3, 2, 0),
-                    BlockStateProvider.simple(ModBlocks.YERBA_MATE_LEAVES.get()),
-                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> FEIJOA_SHRUB =
+            FeatureUtils.register("feijoa_shrub", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                    BlockStateProvider.simple(ModBlocks.FEIJOA_LOG.get()),
+                    new StraightTrunkPlacer(2, 1, 0),
+                    BlockStateProvider.simple(ModBlocks.FEIJOA_LEAVES.get()),
+                    new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 2),
                     new TwoLayersFeatureSize(1, 0, 1)).build());
 }
 
