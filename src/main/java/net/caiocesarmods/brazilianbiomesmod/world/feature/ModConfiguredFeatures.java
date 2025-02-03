@@ -175,10 +175,9 @@ public class ModConfiguredFeatures {
     public static final Holder<PlacedFeature> BLACK_PITANGA_CHECKED = PlacementUtils.register("black_pitanga_checked",
             BLACK_PITANGA_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.PITANGA_SAPLING.get()));
 
-
     ///Biomes vegetation
-    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> ARAUCARIA_FOREST_OCOTEA_TREES = FeatureUtils.register(
-            "araucaria_forest_ocotea_trees", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> ARAUCARIA_FOREST_LAURACEAE = FeatureUtils.register(
+            "araucaria_forest_lauraceae", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
                     new WeightedPlacedFeature(ModConfiguredFeatures.BRAZILLIAN_SASSAFRAS_CHECKED, 0.2F),
                     new WeightedPlacedFeature(ModConfiguredFeatures.FANCY_BRAZILLIAN_SASSAFRAS_CHECKED, 0.2F),
                     new WeightedPlacedFeature(ModConfiguredFeatures.IMBUIA_CHECKED, 0.5F)),
