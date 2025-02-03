@@ -227,6 +227,7 @@ public class ModConfiguredFeatures {
     public static final Holder<PlacedFeature> CECROPIA_CHECKED = PlacementUtils.register("cecropia_checked",
             CECROPIA_TREE, PlacementUtils.filteredByBlockSurvival(ModBlocks.CECROPIA_SAPLING.get()));
 
+
     ///Biomes vegetation
     public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> ARAUCARIA_FOREST_LAURACEAE = FeatureUtils.register(
             "araucaria_forest_lauraceae", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
@@ -245,6 +246,13 @@ public class ModConfiguredFeatures {
             "parana_pine_trees", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
                     new WeightedPlacedFeature(ModConfiguredFeatures.YOUNG_PARANA_PINE_CHECKED, 0.1F)),
                     ModConfiguredFeatures.PARANA_PINE_CHECKED));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> RESTINGA_VEGETATION = FeatureUtils.register(
+            "restinga_vegetation", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
+                    new WeightedPlacedFeature(ModConfiguredFeatures.CECROPIA_CHECKED, 0.2F),
+                    new WeightedPlacedFeature(ModConfiguredFeatures.MANGABA_CHECKED, 0.1F),
+                    new WeightedPlacedFeature(ModConfiguredFeatures.MONKEY_CAJARANA1_CHECKED, 0.1F),
+                    new WeightedPlacedFeature(ModConfiguredFeatures.MONKEY_CAJARANA2_CHECKED, 0.2F)),
+                    ModConfiguredFeatures.CASHEW_CHECKED));
 
 }
 
