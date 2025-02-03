@@ -36,6 +36,14 @@ public class ModBlocks {
             () -> new ModLogs(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> EUGENIA_LOG = registerBlock("eugenia_log",
             () -> new ModLogs(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+    public static final RegistryObject<Block> CASHEW_LOG = registerBlock("cashew_log",
+            () -> new ModLogs(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> MONKEY_CAJARANA_LOG = registerBlock("monkey_cajarana_log",
+            () -> new ModLogs(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> MANGABA_LOG = registerBlock("mangaba_log",
+            () -> new ModLogs(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> CECROPIA_LOG = registerBlock("cecropia_log",
+            () -> new ModLogs(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
 
     //Leaves
     public static final RegistryObject<Block> BRAZILLIAN_SASSAFRAS_LEAVES = registerBlock("brazillian_sassafras_leaves",
@@ -54,6 +62,14 @@ public class ModBlocks {
             () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> BLACK_PITANGA_LEAVES = registerBlock("black_pitanga_leaves",
             () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+    public static final RegistryObject<Block> CASHEW_LEAVES = registerBlock("cashew_leaves",
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> MONKEY_CAJARANA_LEAVES = registerBlock("monkey_cajarana_leaves",
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> MANGABA_LEAVES = registerBlock("mangaba_leaves",
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> CECROPIA_LEAVES = registerBlock("cecropia_leaves",
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
 
     //Sapling
     public static final RegistryObject<Block> BRAZILLIAN_SASSAFRAS_SAPLING = registerBlock("brazillian_sassafras_sapling",
@@ -70,6 +86,16 @@ public class ModBlocks {
             () -> new SaplingBlock(new RioGrandeCherryGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> PITANGA_SAPLING = registerBlock("pitanga_sapling",
             () -> new SaplingBlock(new PitangaGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+    public static final RegistryObject<Block> CASHEW_SAPLING = registerBlock("cashew_sapling",
+            () -> new SaplingBlock(new CashewGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> MONKEY_CAJARANA_SAPLING = registerBlock("monkey_cajarana_sapling",
+            () -> new SaplingBlock(new MonkeyCajaranaGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> MANGABA_SAPLING = registerBlock("mangaba_sapling",
+            () -> new SaplingBlock(new MangabaGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.RESTINGA_TAB);
+    public static final RegistryObject<Block> CECROPIA_SAPLING = registerBlock("cecropia_sapling",
+            () -> new SaplingBlock(new CecropiaGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+
+    //Plants
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
