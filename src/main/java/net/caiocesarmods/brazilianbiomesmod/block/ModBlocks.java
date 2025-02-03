@@ -47,29 +47,29 @@ public class ModBlocks {
 
     //Leaves
     public static final RegistryObject<Block> BRAZILLIAN_SASSAFRAS_LEAVES = registerBlock("brazillian_sassafras_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> PARANA_PINE_LEAVES = registerBlock("parana_pine_leaves",
             () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> IMBUIA_LEAVES = registerBlock("imbuia_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> YERBA_MATE_LEAVES = registerBlock("yerba_mate_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> FEIJOA_LEAVES = registerBlock("feijoa_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> RIO_GRANDE_CHERRY_LEAVES = registerBlock("rio_grande_cherry_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> PITANGA_LEAVES = registerBlock("pitanga_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> BLACK_PITANGA_LEAVES = registerBlock("black_pitanga_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.ATLANTIC_FOREST_TAB);
     public static final RegistryObject<Block> CASHEW_LEAVES = registerBlock("cashew_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.RESTINGA_TAB);
     public static final RegistryObject<Block> MONKEY_CAJARANA_LEAVES = registerBlock("monkey_cajarana_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.RESTINGA_TAB);
     public static final RegistryObject<Block> MANGABA_LEAVES = registerBlock("mangaba_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.RESTINGA_TAB);
     public static final RegistryObject<Block> CECROPIA_LEAVES = registerBlock("cecropia_leaves",
-            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.RESTINGA_TAB);
+            () -> new ModLeaves(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.RESTINGA_TAB);
 
     //Sapling
     public static final RegistryObject<Block> BRAZILLIAN_SASSAFRAS_SAPLING = registerBlock("brazillian_sassafras_sapling",
