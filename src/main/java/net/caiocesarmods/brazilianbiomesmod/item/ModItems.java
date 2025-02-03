@@ -23,6 +23,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
 
     //Fruits
+    public static final RegistryObject<Item> CASHEW = ITEMS.register("cashew",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
     public static final RegistryObject<Item> JUA_BERRIES = ITEMS.register("jua_berries",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
     public static final RegistryObject<Item> CAMBUCI = ITEMS.register("cambuci",

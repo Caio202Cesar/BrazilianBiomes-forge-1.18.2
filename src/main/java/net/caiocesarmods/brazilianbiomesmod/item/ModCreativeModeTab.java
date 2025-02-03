@@ -21,7 +21,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab ATLANTIC_FOREST_TAB = new CreativeModeTab("atlantic_forest_tab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.CAMBUCI.get());
+            return new ItemStack(ModItems.PITANGA.get());
         }
     };
 
