@@ -189,7 +189,10 @@ public class ModConfiguredFeatures {
                     new WeightedPlacedFeature(ModConfiguredFeatures.FEIJOA_CHECKED, 0.7F),
                     new WeightedPlacedFeature(ModConfiguredFeatures.RIO_GRANDE_CHERRY_CHECKED, 0.5F))),
                     ModConfiguredFeatures.FANCY_RIO_GRANDE_CHERRY_CHECKED));
-
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> PARANA_PINE_TREES = FeatureUtils.register(
+            "parana_pine_trees", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
+                    new WeightedPlacedFeature(ModConfiguredFeatures.YOUNG_PARANA_PINE_CHECKED, 0.1F)),
+                    ModConfiguredFeatures.PARANA_PINE_CHECKED));
 
 }
 
