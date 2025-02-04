@@ -1,7 +1,7 @@
 package net.caiocesarmods.brazilianbiomesmod.world.biomes;
 
 import net.caiocesarmods.brazilianbiomesmod.world.feature.ModDefaultFeatures;
-import net.minecraft.core.Holder
+import net.minecraft.core.Holder;
 import net.caiocesarmods.brazilianbiomesmod.BrazilianBiomesMod;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.world.entity.EntityType;
