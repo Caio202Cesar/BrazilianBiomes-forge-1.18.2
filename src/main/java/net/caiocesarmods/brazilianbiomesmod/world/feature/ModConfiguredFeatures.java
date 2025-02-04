@@ -246,6 +246,10 @@ public class ModConfiguredFeatures {
             "parana_pine_trees", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
                     new WeightedPlacedFeature(ModConfiguredFeatures.YOUNG_PARANA_PINE_CHECKED, 0.1F)),
                     ModConfiguredFeatures.PARANA_PINE_CHECKED));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> YERBA_MATE_TREES = FeatureUtils.register(
+            "yerba_mate_trees", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
+                    new WeightedPlacedFeature(ModConfiguredFeatures.FANCY_YERBA_MATE_CHECKED, 0.1F)),
+                    ModConfiguredFeatures.YERBA_MATE_CHECKED));
     public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> RESTINGA_VEGETATION = FeatureUtils.register(
             "restinga_vegetation", Feature.RANDOM_SELECTOR, new RandomFeatureConfiguration(List.of(
                     new WeightedPlacedFeature(ModConfiguredFeatures.CECROPIA_CHECKED, 0.2F),
