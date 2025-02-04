@@ -3,7 +3,7 @@ package net.caiocesarmods.brazilianbiomesmod;
 import com.mojang.logging.LogUtils;
 import net.caiocesarmods.brazilianbiomesmod.block.*;
 import net.caiocesarmods.brazilianbiomesmod.item.ModItems;
-import net.caiocesarmods.brazilianbiomesmod.world.biomes.AraucariaPlateauBiome;
+import net.caiocesarmods.brazilianbiomesmod.world.biomes.ModBiomes;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
@@ -33,7 +33,7 @@ public class BrazilianBiomesMod
 
         eventBus.addListener(this::setup);
 
-        AraucariaPlateauBiome.register(eventBus);
+        ModBiomes.register(eventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
